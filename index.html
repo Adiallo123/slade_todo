@@ -2,52 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentation - TodoWilders</title>
     <link rel="stylesheet" href="./style.css">
+    <title>Presentation - TodoWilders</title>
 </head>
 <body>
-    <h1>Nom du Groupe</h1>
-    <div class="slide">
-        <h2>TodoList</h2>
-        <ul>
-            <li>
-                <img src="./images/rosa.png" alt="Avatar  de Aissatou" />
-            </li>
-            <li>
-                <img src="" alt="Avatar  de Benjamin" />
-            </li>
-            <li>
-                <img src="" alt="Avatar  de Damien" />
-            </li>
-            <li>
-                <img src="./images/aissatou.png" alt="Avatar  de Rosa" />
-            </li>
-        </ul> 
-    </div>
-   <div class="cahier_des_charge">
-        <h2>Cahier des Charge</h2>
-        <ol>
-            <li>
-                <h3>Présentation du projet</h3>
-                <p>Création d'une application interactive avec une liste de tache pour tout public</p>
-            </li>
-            <li>
-                <h3>Description des solutions souhaitées</h3>
-                <ul>
-                    <li>Aspect visuel</li>
-                    <li>Contenu du site</li>
-                    <li>Wireframe 
-                        <img src="./images/image.png" alt="figma">
-                        <a  href="https://www.figma.com/design/Y8Pj0ccNRrBhtbxJiXN8D1/TODOLIST?node-id=4-145&t=sj0NUWWa1utRAncc-0">Maquette</a>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-    <section>
-        <a href="#">Présentation du Site</a>
-    </section>
-   </div>
+    
+    <main>
+        <div class="slide" id="sl1">
+            
+            <div class="title">
+                <h1>Nom du Groupe 2: </h1>
+                <h2>Projet: TodoList</h2>
+            </div>
 
+            <div class="team">
+                <div class="member">
+                    <h4>Aïssatou</h4>
+                    <img src="./images/aissatou.png" alt="Avatar de Aissatou" />
+                </div>
+                <div class="member">
+                    <h4>Benjamin</h4>
+                    <img src="./images/benjamin.png" alt="Avatar de Benjamin" />
+                </div>
+                <div class="member">
+                    <h4>Damien</h4>
+                    <img src="./images/damien.png" alt="Avatar de Damien" />
+                </div>
+                <div class="member">
+                    <h4>Rosa</h4>
+                    <img src="./images/rosa.png" alt="Avatar de Rosa" />
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="sl2">
+            <h2><a href="https://www.figma.com/design/Y8Pj0ccNRrBhtbxJiXN8D1/TODOLIST?node-id=4-145&t=sj0NUWWa1utRAncc-0">Maquette</a></h2>
+<div  class="maquette">
+    <div class="maquetteImg">
+        <img src="./images/image.png" alt="figma" class="imgMaquette">
+    </div>
+    <div class="cahierDC">
+        <h3>Objectif</h3>
+        <p>Développer une application To-Do List simple, intuitive et efficace.</p>
+        <br>
+        <h3>Cibles</h3>
+        <p>Utilisateurs souhaitant organiser leurs tâches quotidiennes.</p>
+    </div>
+</div>
+        </div>
+        <div class="slide" id="sl3">
+            <h2>Démonstration</h2>
+            <div class="demo">
+                <iframe src="https://wild.danielnoury.fr/" width="100%" height="500px"></iframe>
+            </div>
+        </div>
+        <div class="slide" id="sl4">
+            <h2>Analyse du site</h2>
+            <div class="pdf-view">
+                <embed src="./images/todowilder.pdf" type="application/pdf" width="100%" height="500px">
+            </div>
+        </div>
+    
+        <div class="slide" id="sl5">
+            <h2>Grand merci</h2>
+            <p>Nous espérons que vous avez apprécié la présentation du projet</p>
+        </div>
+        <div class="navigation-buttons">
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+        <script src="./index.js"></script>
+    </main>
 </body>
 </html>
