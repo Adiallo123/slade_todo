@@ -38,12 +38,10 @@ a {
     font-family: cursive;
     color: #b50079;
     text-align: center;
-    position: relative;
-    z-index: 2;
     background: #fff;
-    border: 5px solid #b50079;
-    border-radius: 60px 15px 60px 15px;
-   
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 }
 .team {
 display: flex;
@@ -73,12 +71,10 @@ display: flex;
     font-family: cursive;
     color: #b50079;
     text-align: center;
-    position: relative;
-    z-index: 2;
     background: #fff;
-    border: 5px solid #b50079;
-    border-radius: 60px 15px 60px 15px;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 
 }
 .imgMaquette {
@@ -103,12 +99,10 @@ display: flex;
     font-family: cursive;
     color: #b50079;
     text-align: center;
-    position: relative;
-    z-index: 2;
     background: #fff;
-    border: 5px solid #b50079;
-    border-radius: 60px 15px 60px 15px;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 }
 
 /* SLIDE 4 */
@@ -117,12 +111,10 @@ display: flex;
     font-family: cursive;
     color: #b50079;
     text-align: center;
-    position: relative;
-    z-index: 2;
     background: #fff;
-    border: 5px solid #b50079;
-    border-radius: 60px 15px 60px 15px;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 }
 
 
@@ -132,12 +124,10 @@ display: flex;
     font-family: cursive;
     color: #b50079;
     text-align: center;
-    position: relative;
-    z-index: 2;
     background: #fff;
-    border: 5px solid #b50079;
-    border-radius: 60px 15px 60px 15px;
-    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 }
 
 /* NAV BUTTONS */
