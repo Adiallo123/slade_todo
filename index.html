@@ -2,35 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentation - TodoWilders</title>
     <link rel="stylesheet" href="./style.css">
+    <title>Presentation - TodoWilders</title>
 </head>
 <body>
+<div class="container">
     <h1>Nom du Groupe</h1>
-    <div class="slide">
+    <div class="slide" id="sl1">
         <h2>TodoList</h2>
         <ul>
             <li>
-                <img src="./images/rosa.png" alt="Avatar  de Aissatou" />
+                <img src="./images/rosa.png" alt="Avatar de Aissatou" />
             </li>
             <li>
-                <img src="" alt="Avatar  de Benjamin" />
+                <img src="" alt="Avatar de Benjamin" />
             </li>
             <li>
-                <img src="" alt="Avatar  de Damien" />
+                <img src="" alt="Avatar de Damien" />
             </li>
             <li>
-                <img src="./images/aissatou.png" alt="Avatar  de Rosa" />
+                <img src="./images/aissatou.png" alt="Avatar de Rosa" />
             </li>
         </ul> 
     </div>
-   <div class="cahier_des_charge">
-        <h2>Cahier des Charge</h2>
+   <div class="slide" id="sl2">
+        <h2>Cahier des Charges</h2>
         <ol>
             <li>
                 <h3>Présentation du projet</h3>
-                <p>Création d'une application interactive avec une liste de tache pour tout public</p>
+                <p>Création d'une application interactive avec une liste de tâches pour tout public</p>
             </li>
             <li>
                 <h3>Description des solutions souhaitées</h3>
@@ -39,15 +41,21 @@
                     <li>Contenu du site</li>
                     <li>Wireframe 
                         <img src="./images/image.png" alt="figma">
-                        <a  href="https://www.figma.com/design/Y8Pj0ccNRrBhtbxJiXN8D1/TODOLIST?node-id=4-145&t=sj0NUWWa1utRAncc-0">Maquette</a>
+                        <a href="https://www.figma.com/design/Y8Pj0ccNRrBhtbxJiXN8D1/TODOLIST?node-id=4-145&t=sj0NUWWa1utRAncc-0">Maquette</a>
                     </li>
                 </ul>
             </li>
         </ol>
-    <section>
-        <a href="#">Présentation du Site</a>
-    </section>
-   </div>
-
+        <section>
+            <a href="#">Présentation du Site</a>
+        </section>
+    </div>
+    
+    <div class="navigation-buttons">
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </div>
+</div>
+<script src="./index.js"></script>
 </body>
 </html>
