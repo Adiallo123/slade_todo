@@ -95,7 +95,11 @@ display: flex;
     height: 75vh;
 }
 
-#sl3 > h2 {
+#sl3 {
+    display: flex;
+}
+
+#sl3 > div > h4 {
     font-family: cursive;
     color: #b50079;
     text-align: center;
@@ -104,10 +108,21 @@ display: flex;
     border: 3px solid #b50079;
     border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 }
+
+#sl3 > div > img {
+
+    width: 500px ;
+    height: 500px ;
+    padding-top: 1rem;
+    justify-content: center;
+
+}
+
+
 
 /* SLIDE 4 */
 
-#sl4 > h2 {
+#sl4 > div > h4 {
     font-family: cursive;
     color: #b50079;
     text-align: center;
@@ -116,11 +131,49 @@ display: flex;
     border: 3px solid #b50079;
     border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
 }
+
+
 
 
 /* SLIDE 5 */
 
-#sl5 {
+#sl5 > div > h4 {
+    font-family: cursive;
+    color: #b50079;
+    text-align: center;
+    background: #fff;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
+}
+
+/* SLIDE 6 */
+
+#sl6 >h2 {
+    font-family: cursive;
+    color: #b50079;
+    text-align: center;
+    background: #fff;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
+}
+
+/* SLIDE 7 */
+
+#sl5 > h2 {
+    font-family: cursive;
+    color: #b50079;
+    text-align: center;
+    background: #fff;
+    padding: 1rem 0;
+    border: 3px solid #b50079;
+    border-radius: 58% 42% 100% 10% / 65% 13% 88% 0%  ;
+}
+
+/* SLIDE 8 */
+
+#sl8 {
     font-family: cursive;
     color: #b50079;
     text-align: center;
