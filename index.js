@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
 document.addEventListener("DOMContentLoaded", function() {
     const iframe = document.getElementById('imageMB');
     
@@ -87,7 +88,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
-
-
 
