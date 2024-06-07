@@ -31,3 +31,61 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const iframe = document.getElementById('imageMB');
+    
+    iframe.addEventListener('load', function() {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        const img = iframeDocument.getElementById('zoomMB');
+        
+        img.addEventListener('click', function() {
+            if (iframe.classList.contains('fullscreen')) {
+                iframe.classList.remove('fullscreen');
+                iframeDocument.body.style.overflow = 'hidden';
+            } else {
+                iframe.classList.add('fullscreen');
+                iframeDocument.body.style.overflow = 'scroll';
+            }
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const iframe = document.getElementById('imageBrain');
+    
+    iframe.addEventListener('load', function() {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        const img = iframeDocument.getElementById('zoomBrain');
+        
+        img.addEventListener('click', function() {
+            if (iframe.classList.contains('fullscreen')) {
+                iframe.classList.remove('fullscreen');
+                iframeDocument.body.style.overflow = 'hidden';
+            } else {
+                iframe.classList.add('fullscreen');
+                iframeDocument.body.style.overflow = 'scroll';
+            }
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const iframe = document.getElementById('imageMob');
+    
+    iframe.addEventListener('load', function() {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        const img = iframeDocument.getElementById('zoomMob');
+        
+        img.addEventListener('click', function() {
+            if (iframe.classList.contains('fullscreen')) {
+                iframe.classList.remove('fullscreen');
+                iframeDocument.body.style.overflow = 'hidden';
+            } else {
+                iframe.classList.add('fullscreen');
+                iframeDocument.body.style.overflow = 'scroll';
+            }
+        });
+    });
+});
+
